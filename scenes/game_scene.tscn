@@ -18,6 +18,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
 
 [node name="Character" type="TextureRect" parent="." unique_id=1264437603]
 layout_mode = 1
@@ -29,34 +31,37 @@ offset_top = -568.0
 offset_right = 450.0
 offset_bottom = 32.0
 grow_vertical = 0
-stretch_mode = 4
+expand_mode = 1
+stretch_mode = 5
 
-[node name="DialogPanlel" type="Panel" parent="." unique_id=247023562]
+[node name="DialogPanel" type="Panel" parent="." unique_id=247023562]
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -223.0
-offset_bottom = -3.0
+offset_top = -280.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="SpeakerLabel" type="Label" parent="DialogPanlel" unique_id=61361416]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="VBoxContainer" type="VBoxContainer" parent="DialogPanel" unique_id=1015276042]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SpeakerLabel" type="Label" parent="DialogPanel/VBoxContainer" unique_id=61361416]
+layout_mode = 2
 theme_override_font_sizes/font_size = 20
 
-[node name="DialogText" type="RichTextLabel" parent="DialogPanlel" unique_id=2049651034]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-fit_content = true
+[node name="DialogText" type="RichTextLabel" parent="DialogPanel/VBoxContainer" unique_id=2049651034]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
 scroll_active = false
 
-[node name="ChoicesBox" type="HBoxContainer" parent="DialogPanlel" unique_id=1218116974]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="ChoicesBox" type="HBoxContainer" parent="DialogPanel/VBoxContainer" unique_id=1218116974]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
 alignment = 1

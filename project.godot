@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="heka-islas-en-sombra"
+run/main_scene="uid://cj8gmfc6bq7ut"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/mode/initial_mode=3
 
 [physics]
 
