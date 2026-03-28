@@ -1,0 +1,209 @@
+{
+  "P1": {
+    "background": "ruinas.jpg",
+    "speaker": "Narrador",
+    "text": "Dicen que el mundo cayó porque era débil.\nPorque el suelo se volvió hostil.\nPorque los monstruos llegaron.\n\nEso es lo que enseñan.\n\nPero hubo un tiempo en el que las ciudades no flotaban y el cielo no estaba atravesado por rutas.\n\nCuando el Gobierno Central ganó la guerra, prometió salvación.\nElevó las ciudades.\nSelló la superficie.\nY declaró el miedo como ley.",
+    "choices": [
+      { "text": "Continuar", "next": "C1S1" },
+      { "text": "Saltar prólogo", "next": "C1S1" }
+    ]
+  },
+  "C1S1": {
+    "background": "old_venice_dia.jpg",
+    "speaker": "Narrador",
+    "text": "El agua del canal golpea la madera con un ritmo cansado.\nNo es el sonido del mar.\nEs el sonido de algo atrapado.\n\nOld Venice brilla desde arriba.\nAbajo, en los muelles, nadie mira al cielo.",
+    "choices": [
+      { "text": "Seguir", "next": "C1S2" },
+      { "text": "Mirar alrededor", "next": "C1S3" }
+    ]
+  },
+  "C1S2": {
+    "background": "old_venice_dia.jpg",
+    "speaker": "Alanda",
+    "text": "Si el motor suena bien, nadie pregunta de dónde viene.\nSi suena mal, es culpa del mecánico.",
+    "choices": [
+      { "text": "Abrir la tapa del motor", "next": "C1S4" },
+      { "text": "Ir al taller", "next": "C1S5" }
+    ]
+  },
+  "C1S3": {
+    "background": "old_venice_dia.jpg",
+    "speaker": "Narrador",
+    "text": "Desde aquí abajo, Old Venice parece otra ciudad.\nLos niveles altos tienen jardines colgantes.\nLas élites dicen que todo está en orden.\n\nEn los muelles, las rutas cambian y los ataques son más frecuentes.",
+    "choices": [
+      { "text": "Volver al motor", "next": "C1S2" },
+      { "text": "Ir al taller", "next": "C1S5" }
+    ]
+  },
+  "C1S4": {
+    "background": "old_venice_dia.jpg",
+    "speaker": "Narrador",
+    "text": "Una pieza cae al suelo con un tintineo seco.\nNo es óxido.\nNo es chatarra.\nEs oscura, con vetas irregulares.\nEl aire alrededor se siente distinto.",
+    "choices": [
+      { "text": "Guardar la pieza", "next": "C1S5" },
+      { "text": "Dejarla", "next": "C1S5" }
+    ]
+  },
+  "C1S5": {
+    "background": "taller.jpg",
+    "speaker": "Narrador",
+    "text": "El taller huele a aceite caliente y vapor viejo.\nEs pequeño, apretado, pero es tuyo.\nAlanda coloca la pieza sobre la mesa.\nNo es de catálogo.\nNo es de Old Venice.",
+    "choices": [
+      { "text": "Examinar la pieza", "next": "C1S6" },
+      { "text": "Trabajar en silencio", "next": "C1S7" }
+    ]
+  },
+  "C1S6": {
+    "background": "taller.jpg",
+    "speaker": "Alanda",
+    "text": "Heka...\npero no como debería sentirse.\nSi esto viene de una ruta civil, alguien está mintiendo.",
+    "choices": [
+      { "text": "Esperar a ver quién viene", "next": "C1S7" },
+      { "text": "Esconderla mejor", "next": "C1S7" }
+    ]
+  },
+  "C1S7": {
+    "background": "taller.jpg",
+    "speaker": "Narrador",
+    "text": "La puerta del taller se abre.\nUn hombre entra.\nAlto, estilizado.\nPelo castaño claro y largo.\nOjos azules.\nCicatrices finas en la cara.\nEs Arlong.",
+    "choices": [
+      { "text": "Hablar primero", "next": "C2S1" },
+      { "text": "Dejar que hable él", "next": "C2S1" }
+    ]
+  },
+  "C2S1": {
+    "background": "taller.jpg",
+    "speaker": "Arlong",
+    "text": "¿Eres la mecánica?",
+    "choices": [
+      { "text": "Responder", "next": "C2S2" },
+      { "text": "Hacerte la dura", "next": "C2S3" }
+    ]
+  },
+  "C2S2": {
+    "background": "taller.jpg",
+    "speaker": "Alanda",
+    "text": "Depende.\n¿Quieres una reparación o una excusa?",
+    "choices": [
+      { "text": "Escuchar el encargo", "next": "C2S4" },
+      { "text": "Rechazarlo", "next": "C2S10" }
+    ]
+  },
+  "C2S3": {
+    "background": "taller.jpg",
+    "speaker": "Alanda",
+    "text": "Depende.\n¿Quieres que funcione o que no pregunte?",
+    "choices": [
+      { "text": "Escuchar el encargo", "next": "C2S4" },
+      { "text": "Rechazarlo", "next": "C2S10" }
+    ]
+  },
+  "C2S4": {
+    "background": "taller.jpg",
+    "speaker": "Narrador",
+    "text": "Arlong deja un símbolo metálico sobre la mesa.\nUna mano rompiendo una cadena.\nMano de la Liberación.",
+    "choices": [
+      { "text": "Aceptar ver el barco", "next": "C2S5" },
+      { "text": "Pedir más detalles", "next": "C2S6" }
+    ]
+  },
+  "C2S5": {
+    "background": "taller.jpg",
+    "speaker": "Narrador",
+    "text": "La sala de máquinas late con vapor y metal.\nAlanda abre una cámara sellada.\nDentro hay una sustancia oscura incrustada.\nNo es daño de ataque.",
+    "choices": [
+      { "text": "Preguntar qué pasó", "next": "C2S7" },
+      { "text": "Callarte y observar", "next": "C2S8" }
+    ]
+  },
+  "C2S6": {
+    "background": "taller.jpg",
+    "speaker": "Alanda",
+    "text": "Antes de tocar nada dime de dónde viene esto y por qué no puede pasar por aduanas.",
+    "choices": [
+      { "text": "Ir al barco", "next": "C2S5" },
+      { "text": "Negarte", "next": "C2S10" }
+    ]
+  },
+  "C2S7": {
+    "background": "taller.jpg",
+    "speaker": "Arlong",
+    "text": "Las rutas están empeorando.\nLos ataques son más frecuentes.\nEn la última misión uno se detuvo.",
+    "choices": [
+      { "text": "¿Cómo que se detuvo?", "next": "C2S9" },
+      { "text": "Volver al taller", "next": "C2S11" }
+    ]
+  },
+  "C2S8": {
+    "background": "taller.jpg",
+    "speaker": "Narrador",
+    "text": "Alanda siente el Heka en el aire.\nNo es el mismo Heka de las piezas legales.\nTiene algo enfermo.",
+    "choices": [
+      { "text": "Preguntar de frente", "next": "C2S7" },
+      { "text": "Volver al taller", "next": "C2S11" }
+    ]
+  },
+  "C2S9": {
+    "background": "taller.jpg",
+    "speaker": "Alanda",
+    "text": "¿Cómo que se detuvo?",
+    "choices": [
+      { "text": "Escuchar", "next": "C2S12" },
+      { "text": "Cortar la conversación", "next": "C2S11" }
+    ]
+  },
+  "C2S10": {
+    "background": "gobierno_check.jpg",
+    "speaker": "Alanda",
+    "text": "No me meto con paramilitares.\nNo hoy.",
+    "choices": [
+      { "text": "Volver", "next": "C2S11" },
+      { "text": "Cambiar de idea", "next": "C2S4" }
+    ]
+  },
+  "C2S11": {
+    "background": "old_venice_noche.jpg",
+    "speaker": "Narrador",
+    "text": "Esa noche el muelle está más silencioso.\nDemasiado.\nUn aviso del Gobierno Central aparece en una pared.\nUna inspección aleatoria.\nY tu nombre escrito con tinta limpia.",
+    "choices": [
+      { "text": "Continuar", "next": "C2S15" },
+      { "text": "Volver al taller", "next": "C2S5" }
+    ]
+  },
+  "C2S12": {
+    "background": "taller.jpg",
+    "speaker": "Arlong",
+    "text": "Se detuvo como si hubiese reconocido algo.\nComo si dudara.\nLuego atacó con más rabia.",
+    "choices": [
+      { "text": "Aceptar", "next": "C2S14" },
+      { "text": "Volver al taller", "next": "C2S11" }
+    ]
+  },
+  "C2S14": {
+    "background": "taller.jpg",
+    "speaker": "Alanda",
+    "text": "Vale.\nLo arreglo.\nPero si veo algo raro lo voy a recordar.",
+    "choices": [
+      { "text": "Salir al amanecer", "next": "C3S1" },
+      { "text": "Preparar el viaje", "next": "C3S1" }
+    ]
+  },
+  "C2S15": {
+    "background": "gobierno_check.jpg",
+    "speaker": "Inspector",
+    "text": "Buenas noches.\nSolo queremos asegurarnos de que todo esté en orden.",
+    "choices": [
+      { "text": "Responder con calma", "next": "C3S1" },
+      { "text": "Quedarte callada", "next": "C3S1" }
+    ]
+  },
+  "C3S1": {
+    "background": "zona_infestada.jpg",
+    "speaker": "Narrador",
+    "text": "Fin de la demo por ahora.\nHas llegado al inicio del Capítulo 3.\n\n(Continuará...)",
+    "choices": [
+      { "text": "Volver al menú", "next": "MENU" },
+      { "text": "Volver al menú", "next": "MENU" }
+    ]
+  }
+}
